@@ -9,20 +9,23 @@ struct Index {
   @State message: string = 'Hello World'
 
   build() {
-    Row() {
-      Column() {
+      Column({space:CommonConstants.INDEX_COLUMN_SPACE}) {
         Button($r("app.string.todo_list_nick"))
-      }.width('100%')
-      .onClick(()=>{
-        router.push({
-          url: CommonConstants.SECOND_URL,
-          params: {
-            src: CommonConstants.SECOND_MESSAGE
-          }
+          .onClick(()=>{
+            router.pushUrl({
+              url: CommonConstants.SECOND_URL,
+              params: {
+                src: CommonConstants.SECOND_MESSAGE
+              }
+            })
+          })
+        Button($r("app.string.login_main_page")).onClick(()=>{
+          router.pushUrl({
+            url:CommonConstants.LOGIN_URL
+          })
         })
-      })
-      .width('100%')
-    }
-    .height('100%')
+      }.width('100%')
+    .height(CommonConstants.FULL_LENGTH)
+    .justifyContent(FlexAlign.Start)
   }
 }
