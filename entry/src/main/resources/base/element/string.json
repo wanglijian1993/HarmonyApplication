@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "待办列表"
+    },
+    {
+      "name": "page_title",
+      "value": "待办"
+    },
+    {
+      "name": "todo_list_nick",
+      "value": "列表功能"
+    }
+  ]
+}
