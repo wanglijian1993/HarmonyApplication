@@ -17,19 +17,29 @@ HSP(Harmony Shared Package).
 * 开发者通过DevEco Studio把应用程序编译为一个或者多个.hap后缀的文件，即HAP。HAP是HarmonyOS应用安装的基本单位，包含了编译后的代码、资源、三方库及配置文件。HAP可分为Entry和Feature两种类型。
   * Entry类型的HAP：是应用的主模块，在[module.json5配置](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/module-configuration-file-0000001427744540-V2)文件中的type标签配置为“entry”类型。在同一个应用中，同一设备类型只支持一个Entry类型的HAP，通常用于实现应用的入口界面、入口图标、主特性功能等。
 * 每个HarmonyOS应用可以包含多个.hap文件，一个应用中的.hap文件合在一起称为一个Bundle，而bundleName就是应用的唯一标识[请参见app.json5配置](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/app-configuration-file-0000001427584584-V2)文件中的bundleName标签）。需要特别说明的是：在应用上架到应用市场时，需要把应用包含的所有.hap文件（即Bundle）打包为一个.app后缀的文件用于上架，这个.app文件称为App Pack（Application Package），其中同时包含了描述App Pack属性的pack.info文件；在云端（服务器）分发和终端设备安装时，都是以HAP为单位进行分发和安装的。
-## 组件介绍
+## 关键字介绍
 * @Component
 装饰的自定义组件
 * @Entry
 定义为入口
 * @State
 改变组件状态
+* @prop
+父组件单向同步的场景
+* @Link
+与父组件双向同步状态和监听状态变化
+* @Watch
+与父组件双向同步状态和监听状态变化
+* @Provide，@Consume
+跨组件层级双向同步状态
 * @Builder
 Builder装饰器,装饰函数，快速生成布局内容，从而可以避免重复的UI描述内容。
 * this关键字
 引用当前类定义的参数
-* ForEach
 
+## 组件介绍
+* ForEach
+* tabs
 ### UiAbility
 1. UiAility是一种包含用户界面的应用组件，用于和用户进行交互UiAbility是系统调度的单元，提供窗口用于界面绘制
 2. UiAbility的创建和对应页面的创建

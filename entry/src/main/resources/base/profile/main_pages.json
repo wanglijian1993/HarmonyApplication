@@ -3,6 +3,7 @@
     "pages/Index",
     "pages/ToDoListPage",
     "pages/LoginPage",
-    "pages/MainPage"
+    "pages/MainPage",
+    "pages/TargetManagerPage"
   ]
 }

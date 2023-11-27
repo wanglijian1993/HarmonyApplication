@@ -50,6 +50,15 @@ export default  class CommonConstant{
    * The Login page url.
    */
   static readonly LOGIN_URL: string = 'pages/LoginPage';
+
+  /**
+   * default click index.
+   */
+  static readonly DEFAULT_CLICK_INDEX: number = -1;
+  /**
+   * The targer manager page url.
+   */
+  static readonly TARGET_MANAGER_PAGE: string = 'pages/TargetManagerPage';
   /**
    * The Main page url
    */
@@ -62,6 +71,10 @@ export default  class CommonConstant{
    * The width or height of the component is spread across the parent component.
    */
   static readonly FULL_PARENT = '100%';
+   /**
+    * 满屏宽度
+    */
+  static readonly FULL_WIDTH='100%'
   /**
    * 首页的column间距
    */
@@ -116,6 +129,181 @@ export default  class CommonConstant{
    * The width of setting list
    */
   static readonly SET_LIST_WIDTH = '42%';
+  /**
+   * Larger font weight.
+   */
+  static readonly FONT_WEIGHT_LARGE: number = 700;
+  /**
+   * Radius of bookInfo area.
+   */
+  static readonly IMAGE_BORDER_RADIUS: number = 12;
+
+  /**
+   * Opacity of text.
+   */
+  static readonly OPACITY: number = 0.4;
+
+  /**
+   * Margin left of book item.
+   */
+  static readonly TARGET_MARGIN_LEFT: string = '5%';
+  /**
+   * Default progress value.
+   */
+  static readonly DEFAULT_PROGRESS_VALUE: string = '-';
+  /**
+   * Width of slider.
+   */
+  static readonly STROKE_WIDTH: number = 4.8;
+  /**
+   * Width of the content area.
+   */
+  static readonly MAIN_BOARD_WIDTH: string = '93.3%';
+
+  /**
+   * Radius of bookInfo area.
+   */
+  static readonly TARGET_BORDER_RADIUS: number = 24;
+  /**
+   * Full height.
+   */
+  static readonly FULL_HEIGHT: string = '100%';
+  /**
+   * Width of checkbox.
+   */
+  static readonly CHECKBOX_WIDTH: number = 20;
+
+  /**
+   * list space.
+   */
+  static readonly LIST_SPACE: number = 12;
+
+  /**
+   * Width of task item.
+   */
+  static readonly TASK_NAME_WIDTH: string = '30%';
+  /**
+   * Max of line.
+   */
+  static readonly MAX_LINES: number = 2;
+  /**
+   * The smallest value of slider.
+   */
+  static readonly SLIDER_MIN_VALUE: number = 0;
+  /**
+   * The maximum value of slider.
+   */
+  static readonly SLIDER_MAX_VALUE: number = 100;
+  /**
+   * Step of slider.
+   */
+  static readonly SLIDER_STEP: number = 1;
+  /**
+   * Margin top of slider button.
+   */
+  static readonly SLIDER_INNER_WIDTH: string = '90%';
+  /**
+   * Width of slider.
+   */
+  static readonly SLIDER_WIDTH: string = '90%';
+  /**
+   * Height of slider.
+   */
+  static readonly SLIDER_HEIGHT: string = '20%';
+  /**
+   * Radius of list.
+   */
+  static readonly LIST_RADIUS: number = 24;
+  /**
+   * Margin top of slider button.
+   */
+  static readonly SLIDER_BUTTON_MARGIN: string = '4%';
+  /**
+   * Button width of dialog.
+   */
+  static readonly DIALOG_OPERATION_WIDTH: string = '70%';
+  /**
+   * Button height of dialog.
+   */
+  static readonly DIALOG_OPERATION_HEIGHT: string = '10%';
+  /**
+   * Width of dialog.
+   */
+  static readonly DIALOG_WIDTH: string = '90.3%';
+  /**
+   * Radius of dialog.
+   */
+  static readonly DIALOG_BORDER_RADIUS: number = 32;
+  /**
+   * Current month plus one.
+   */
+  static readonly PLUS_ONE: number = 1;
+
+  /**
+   * The fraction or number of seconds is less than 10.
+   */
+  static readonly TEN: number = 10;
+  /**
+   * x-axis transition animation.
+   */
+  static readonly TRANSITION_ANIMATION_X: number = 1;
+
+  /**
+   * y-axis transition animation.
+   */
+  static readonly TRANSITION_ANIMATION_Y: number = 0;
+  /**
+   * Opacity of not.
+   */
+  static readonly NO_OPACITY: number = 1;
+
+  /**
+   * default SliderChangeMode.
+   */
+  static readonly DEFAULT_SLIDER_MODE: number = -1;
+
+  /**
+   * click SliderChangeMode.
+   */
+  static readonly CLICK_SLIDER_MODE: number = 3;
+
+  /**
+   * Height of list.
+   */
+  static readonly LIST_HEIGHT: string = '80%';
+  /**
+   * One task of data.
+   */
+  static readonly ONE_TASK: number = 1;
+  /**
+   * Height of list board.
+   */
+  static readonly LIST_BOARD_HEIGHT: string = '67%';
+  /**
+   * Button height of dialog.
+   */
+  static readonly DIALOG_INPUT_HEIGHT: string = '40%';
+  /**
+   * Input margin of dialog.
+   */
+  static readonly DIALOG_INPUT_MARGIN: string = '6%';
+  /**
+   * Bottom toast.
+   */
+  static readonly TOAST_MARGIN_BOTTOM: number = 64;
+
+  /**
+   * Horizontal offset of dialog.
+   */
+  static readonly DIALOG_OFFSET_X: number = 0;
+  /**
+   * Toast Duration.
+   */
+  static readonly TOAST_TIME: number = 3000;
+  /**
+   * animation duration.
+   */
+  static readonly DURATION: number = 300;
   static readonly TODO_DATA:Array<string>=[
     "早起锻炼","准备早餐","阅读名著","学习ArkTs","看剧放松"
   ]

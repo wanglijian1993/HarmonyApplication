@@ -24,7 +24,13 @@ struct Index {
             url:CommonConstants.LOGIN_URL
           })
         })
+        Button($r("app.string.target_manager_page")).onClick(()=>{
+          router.pushUrl({
+            url:CommonConstants.TARGET_MANAGER_PAGE
+          })
+        })
       }.width('100%')
+
     .height(CommonConstants.FULL_LENGTH)
     .justifyContent(FlexAlign.Start)
   }
