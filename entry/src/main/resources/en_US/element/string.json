@@ -291,6 +291,18 @@
     {
       "name": "target_manager_page",
       "value": "target_manager_page"
+    },
+    {
+      "name": "empty",
+      "value": "empty"
+    },
+    {
+      "name": "video_play",
+      "value": "video_play"
+    },
+    {
+      "name": "back",
+      "value": "video"
     }
   ]
 }

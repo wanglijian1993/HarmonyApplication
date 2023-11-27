@@ -24,11 +24,18 @@ struct Index {
             url:CommonConstants.LOGIN_URL
           })
         })
-        Button($r("app.string.target_manager_page")).onClick(()=>{
+      Button($r("app.string.target_manager_page")).onClick(()=>{
           router.pushUrl({
             url:CommonConstants.TARGET_MANAGER_PAGE
           })
         })
+
+        Button($r("app.string.video_play")).onClick(()=>{
+          router.pushUrl({
+            url:CommonConstants.TARGET_VIDEO_INDEX
+          })
+        })
+
       }.width('100%')
 
     .height(CommonConstants.FULL_LENGTH)

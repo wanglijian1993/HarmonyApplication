@@ -292,6 +292,18 @@
     {
       "name": "target_manager_page",
       "value": "管理界面"
+    },
+    {
+      "name": "empty",
+      "value": "empty"
+    },
+    {
+      "name": "video_play",
+      "value": "视频直播"
+    },
+    {
+      "name": "back",
+      "value": "视频"
     }
   ]
 }

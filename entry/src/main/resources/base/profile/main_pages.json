@@ -4,6 +4,8 @@
     "pages/ToDoListPage",
     "pages/LoginPage",
     "pages/MainPage",
-    "pages/TargetManagerPage"
+    "pages/TargetManagerPage",
+    "pages/SimpleVideoIndex",
+    "pages/SimpleVideoPlay"
   ]
 }
