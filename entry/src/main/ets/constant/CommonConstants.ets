@@ -429,3 +429,4 @@ export const IMAGE_SIZE: number = 24;
 export const RENDER_PAGES='pages/foreach/ForeachIndex'
 export const FOREACH_PAGE='pages/foreach/ForeachPage'
 export const FOREACH_OBJECTLINK='pages/foreach/ForeachObjectLink'
+export const FOREACH_LAZYFOREACH='pages/foreach/LazyForeach'

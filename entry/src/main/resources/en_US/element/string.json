@@ -315,6 +315,9 @@
     {
       "name": "foreach_objectlink",
       "value": "foreach_objectlink"
+    },{
+    "name": "foreach_lazyforeach",
+    "value": "foreach_lazyforeach"
     }
   ]
 }

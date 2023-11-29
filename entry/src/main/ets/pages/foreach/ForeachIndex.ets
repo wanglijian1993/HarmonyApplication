@@ -1,5 +1,5 @@
 import router from '@ohos.router'
-import {ALL_PERCENT,FOREACH_OBJECTLINK,FOREACH_PAGE} from '../../constant/CommonConstants'
+import {ALL_PERCENT,FOREACH_OBJECTLINK,FOREACH_PAGE,FOREACH_LAZYFOREACH} from '../../constant/CommonConstants'
 
 @Entry
 @Component
@@ -16,6 +16,10 @@ struct foreachIndex{
       Button($r('app.string.foreach_objectlink'))
         .onClick(()=>{
           router.pushUrl({url:FOREACH_OBJECTLINK})
+        })
+      Button($r('app.string.foreach_lazyforeach'))
+        .onClick(()=>{
+          router.pushUrl({url:FOREACH_LAZYFOREACH})
         })
 
     }.height(ALL_PERCENT)

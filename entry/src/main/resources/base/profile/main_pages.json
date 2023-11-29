@@ -9,6 +9,7 @@
     "pages/SimpleVideoPlay",
     "pages/foreach/ForeachPage",
     "pages/foreach/ForeachIndex",
-    "pages/foreach/ForeachObjectLink"
+    "pages/foreach/ForeachObjectLink",
+    "pages/foreach/LazyForeach"
   ]
 }
