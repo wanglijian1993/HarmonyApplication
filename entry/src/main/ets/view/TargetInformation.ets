@@ -3,9 +3,9 @@ import CommonConstants from '../constant/CommonConstants'
 @Preview({title:"TargetInformation"})
 @Component
 export default struct TargetInformation{
-  @Prop latestUpdateDate: string = '';
-  @Prop totalTasksNumber: number = 0;
-  @Prop completedTasksNumber: number = 0;
+  @Prop latestUpdateDate: string ;
+  @Prop totalTasksNumber: number;
+  @Prop completedTasksNumber: number;
 
 
   @Builder

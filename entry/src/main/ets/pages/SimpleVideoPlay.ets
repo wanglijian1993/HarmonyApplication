@@ -72,7 +72,8 @@ struct play{
         })
           .zIndex(0)
       }
-    }
+    }.height(ALL_PERCENT)
+    .backgroundColor(Color.Black)
 
   }
 

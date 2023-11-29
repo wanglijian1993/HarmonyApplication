@@ -3,7 +3,6 @@ import CommonConstants from '../constant/CommonConstants'
 import getCurrentTime from '../utils/DateUtil';
 import DataModel,{ TaskItemBean } from '../viewmodel/DataModel';
 import ProgressEditPanel from './ProgressEditPanel';
-@Preview({title:"TargetListItem"})
 @Component
 export default struct TargetListItem{
   private taskItem?: TaskItemBean;
