@@ -1,4 +1,5 @@
 import router from '@ohos.router'
+import {RENDER_PAGES} from '../constant/CommonConstants';
 import CommonConstants from '../constant/CommonConstants';
 
 const TAG = '[IndexPage]';
@@ -33,6 +34,12 @@ struct Index {
         Button($r("app.string.video_play")).onClick(()=>{
           router.pushUrl({
             url:CommonConstants.TARGET_VIDEO_INDEX
+          })
+        })
+
+        Button($r("app.string.render_control")).onClick(()=>{
+          router.pushUrl({
+            url:RENDER_PAGES
           })
         })
 

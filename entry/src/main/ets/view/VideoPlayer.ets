@@ -16,7 +16,7 @@ import {changeSliderTime } from '../model/VideoControll';
  * video controller component
  */
 @Component
-export struct VideoPlayer{
+export struct   VideoPlayer{
   private source: string | Resource = '';
   private controller: VideoController = new VideoController();
   private previewUris: Resource = $r('app.media.preview');

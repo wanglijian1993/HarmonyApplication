@@ -35,11 +35,18 @@ HSP(Harmony Shared Package).
 * @Builder
 Builder装饰器,装饰函数，快速生成布局内容，从而可以避免重复的UI描述内容。
 * this关键字
+* Observed
+
 引用当前类定义的参数
 
 ## 组件介绍
 * ForEach
+[ForEach循环渲染](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/arkts-rendering-control-foreach-0000001524537153-V2)
 * tabs
+* VideoPlayer
+[ViewPlayer使用说明文档](https://developer.huawei.com/consumer/cn/training/course/slightMooc/C101680765314766141)
+* Swiper
+* 
 ### UiAbility
 1. UiAility是一种包含用户界面的应用组件，用于和用户进行交互UiAbility是系统调度的单元，提供窗口用于界面绘制
 2. UiAbility的创建和对应页面的创建

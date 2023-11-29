@@ -6,6 +6,9 @@
     "pages/MainPage",
     "pages/TargetManagerPage",
     "pages/SimpleVideoIndex",
-    "pages/SimpleVideoPlay"
+    "pages/SimpleVideoPlay",
+    "pages/foreach/ForeachPage",
+    "pages/foreach/ForeachIndex",
+    "pages/foreach/ForeachObjectLink"
   ]
 }

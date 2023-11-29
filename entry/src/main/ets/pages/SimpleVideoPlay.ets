@@ -4,28 +4,27 @@ import { MARGIN_FONT_SIZE,COMMON_NUM_FONT_WEIGHT,ALL_PERCENT,STACK_STYLE } from 
 import { VideoPlayer } from '../view/VideoPlayer';
 @Entry
 @Component
-struct Play {
+struct play{
   private source: string = (router.getParams() as Record<string, Object>).source as string;
-  private startIconResource: Resource = $r('app.media.ic_public_play');
   private backIconResource: Resource = $r('app.media.ic_back');
+  private startIconResource: Resource = $r('app.media.ic_public_play');
   @Provide isPlay: boolean = false;
   @Provide isOpacity: boolean = false;
   controller: VideoController = new VideoController();
   @Provide isLoading: boolean = false;
   @Provide progressVal: number = 0;
   @Provide flag: boolean = false;
-
   aboutToAppear() {
     this.source;
   }
-
   onPageHide() {
     this.controller.pause();
   }
 
-  build() {
-    Column() {
-      Row() {
+  build(){
+
+    Column(){
+      Row(){
         Image(this.backIconResource)
           .width(MARGIN_FONT_SIZE.FOURTH_MARGIN)
           .height(MARGIN_FONT_SIZE.FOURTH_MARGIN)
@@ -38,14 +37,12 @@ struct Play {
           .fontSize(MARGIN_FONT_SIZE.FOURTH_MARGIN)
           .fontWeight(COMMON_NUM_FONT_WEIGHT)
           .margin({ left: MARGIN_FONT_SIZE.FIRST_MARGIN })
-      }
-      .width(ALL_PERCENT)
+      }  .width(ALL_PERCENT)
       .margin({
         left: MARGIN_FONT_SIZE.FIRST_MARGIN,
         top: MARGIN_FONT_SIZE.FIRST_MARGIN
       })
       .justifyContent(FlexAlign.Start)
-
       Stack() {
         if (!this.isPlay && !this.isLoading) {
           Image(this.startIconResource)
@@ -75,8 +72,9 @@ struct Play {
         })
           .zIndex(0)
       }
-    }
-    .height(ALL_PERCENT)
+    }.height(ALL_PERCENT)
     .backgroundColor(Color.Black)
+
   }
+
 }

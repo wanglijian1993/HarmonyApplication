@@ -425,3 +425,7 @@ export const BIG_TRACK_THICK_NESS: number = 4;
  * Image Size
  */
 export const IMAGE_SIZE: number = 24;
+
+export const RENDER_PAGES='pages/foreach/ForeachIndex'
+export const FOREACH_PAGE='pages/foreach/ForeachPage'
+export const FOREACH_OBJECTLINK='pages/foreach/ForeachObjectLink'
