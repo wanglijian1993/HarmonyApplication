@@ -304,6 +304,18 @@
     {
       "name": "back",
       "value": "视频"
+    },
+    {
+      "name": "render_control",
+      "value": "渲染控制"
+    },
+    {
+      "name": "foreach_page",
+      "value": "foreach_pages"
+    },
+    {
+      "name": "foreach_objectlink",
+      "value": "foreach_objectlink"
     }
   ]
 }

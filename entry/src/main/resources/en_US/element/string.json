@@ -303,6 +303,18 @@
     {
       "name": "back",
       "value": "video"
+    },
+    {
+      "name": "render_control",
+      "value": "render_control"
+    },
+    {
+      "name": "foreach_page",
+      "value": "foreach_pages"
+    },
+    {
+      "name": "foreach_objectlink",
+      "value": "foreach_objectlink"
     }
   ]
 }
