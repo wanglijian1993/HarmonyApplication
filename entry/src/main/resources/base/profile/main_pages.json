@@ -10,6 +10,7 @@
     "pages/foreach/ForeachPage",
     "pages/foreach/ForeachIndex",
     "pages/foreach/ForeachObjectLink",
-    "pages/foreach/LazyForeach"
+    "pages/foreach/LazyForeach",
+    "pages/NewsPage"
   ]
 }
