@@ -47,6 +47,12 @@ Builder装饰器,装饰函数，快速生成布局内容，从而可以避免重
 [ViewPlayer使用说明文档](https://developer.huawei.com/consumer/cn/training/course/slightMooc/C101680765314766141)
 * Swiper
 
+## 网络框架使用
+
+## 动画
+[鸿蒙动画](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V2/arkts-animation-overview-0000001450755570-V2)
+* 显示动画
+* 属性动画
 ###
 疑问
 # import { CommonConstant as Const, ContentType } from '../CommonConstants';和 import { CommonConstant as Const, ContentType } from '../CommonConstants';区别

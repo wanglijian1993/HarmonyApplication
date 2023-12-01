@@ -1,5 +1,5 @@
 import router from '@ohos.router'
-import {NEWS_PAGES, RENDER_PAGES} from '../constant/CommonConstants';
+import {NEWS_PAGES, RENDER_PAGES,ANIMATION_PAGES} from '../constant/CommonConstants';
 import CommonConstants from '../constant/CommonConstants';
 
 const TAG = '[IndexPage]';
@@ -45,6 +45,11 @@ struct Index {
         Button($r("app.string.news_pages")).onClick(()=>{
           router.pushUrl({
             url:NEWS_PAGES
+          })
+        })
+        Button($r("app.string.animations_ages")).onClick(()=>{
+          router.pushUrl({
+            url:ANIMATION_PAGES
           })
         })
       }.width('100%')

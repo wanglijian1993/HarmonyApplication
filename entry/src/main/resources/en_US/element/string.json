@@ -361,6 +361,10 @@
     {
       "name": "news_pages",
       "value": "news_pages"
+    },
+    {
+      "name": "animations_ages",
+      "value": "animations_ages"
     }
   ]
 }

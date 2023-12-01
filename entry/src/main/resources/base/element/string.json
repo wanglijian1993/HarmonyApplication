@@ -364,6 +364,10 @@
     {
       "name": "news_pages",
       "value": "新闻界面"
+    },
+    {
+      "name": "animations_ages",
+      "value": "动画"
     }
   ]
 }

@@ -11,6 +11,7 @@
     "pages/foreach/ForeachIndex",
     "pages/foreach/ForeachObjectLink",
     "pages/foreach/LazyForeach",
-    "pages/NewsPage"
+    "pages/NewsPage",
+    "pages/animations/AnimationPage"
   ]
 }
